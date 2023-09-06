@@ -4,6 +4,8 @@
  */
 package pos.mvc;
 
+import pos.mvc.view.customerView;
+
 /**
  *
  * @author V.Chamod
@@ -15,7 +17,7 @@ public class PosMvc {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Hello");
+        new customerView().setVisible(true);
     }
     
 }
